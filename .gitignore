@@ -1,0 +1,9 @@
+._*
+.DS_Store
+.env
+.env.*
+*.key
+*.pem
+*.jks
+*.keystore
+*-firebase-adminsdk-*.json

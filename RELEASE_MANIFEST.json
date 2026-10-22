@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "repository": "https://github.com/yashasraj615/Neon-Chat-Releases",
+  "artifacts": [
+    {
+      "platform": "android",
+      "file": "NeonChat-1.0.0-build15-Android.apk",
+      "version": "1.0.0",
+      "sha256": "59663b48c143daba2d9d97dbd132dfecd42b6bf3b7b206a0e90c4ee82616a9d0",
+      "size_bytes": 295747560,
+      "storage": "git-lfs",
+      "build": 15,
+      "architecture": [
+        "arm64",
+        "armeabi-v7a",
+        "x64"
+      ],
+      "published": true,
+      "valid": true
+    },
+    {
+      "platform": "macos",
+      "file": "NeonChat-1.0.1-build5-macOS.dmg",
+      "version": "1.0.1",
+      "sha256": "67e2610ff6c75a2c7bfc5690db27d160159536a51d71bab2e757f5cc84654af6",
+      "size_bytes": 124493498,
+      "storage": "git-lfs",
+      "build": 5,
+      "architecture": [
+        "arm64",
+        "x64"
+      ],
+      "published": true,
+      "valid": true
+    },
+    {
+      "platform": "windows",
+      "file": "NeonChat-1.0.0-build1-Windows-x64-Setup.exe",
+      "version": "1.0.0",
+      "sha256": "b90743e520ba004d2c88220cd09553b41496619f35ea790dde2864a5bde0ceea",
+      "size_bytes": 52773653,
+      "storage": "git-lfs",
+      "build": 1,
+      "architecture": "x64",
+      "published": true,
+      "valid": true
+    }
+  ],
+  "ios": {
+    "status": "No valid signed distributable IPA available"
+  }
+}
