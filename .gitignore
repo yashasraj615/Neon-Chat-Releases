@@ -7,3 +7,6 @@
 *.jks
 *.keystore
 *-firebase-adminsdk-*.json
+
+# Preserve the retired release locally; history retains its published pointer.
+NeonChat-1.0.0-build15-Android.apk

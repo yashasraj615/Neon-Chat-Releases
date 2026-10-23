@@ -4,7 +4,7 @@ Official public distribution files for NeonChat. Application source remains priv
 
 | Platform | Version / build | Installer | Architecture |
 | --- | --- | --- | --- |
-| Android | 1.0.0 / 15 | NeonChat-1.0.0-build15-Android.apk | arm64, armv7, x86_64 |
+| Android | 1.0.0 / 16 | NeonChat-1.0.0-build16-Android.apk | arm64, armv7, x86_64 |
 | Windows | 1.0.0 / 1 | NeonChat-1.0.0-build1-Windows-x64-Setup.exe | x64 |
 | macOS | 1.0.1 / 5 | NeonChat-1.0.1-build5-macOS.dmg | Apple silicon and Intel |
 
@@ -14,7 +14,7 @@ No signed distributable iOS package is available. iOS remains Coming Soon.
 
 `SHA256SUMS.txt` and the manifest record the actual installer SHA-256 hashes. With materialized files, run `shasum -a 256 -c SHA256SUMS.txt` on macOS/Linux, or `Get-FileHash <installer> -Algorithm SHA256` on Windows. Checksums prove byte agreement, not publisher trust.
 
-Android is a signed release APK, with versionCode 15/versionName 1.0.0, three ABIs, valid ZIP CRC and AOT libraries. The bundled environment contains only public client settings. macOS disk-image integrity and deep strict code signature verify; its embedded app is universal 1.0.1 build 5 with the NeonChat icon. The DMG is ad-hoc signed, not notarized. Windows is the supplied PE/Inno Setup installer matching the successful packaging record and companion x64 app 1.0.0+1; it is unsigned. Windows runtime was not repeated on the publisher's Mac. Publishing these packages does not claim fresh messaging, calling or notification tests.
+Android is a signed release APK, with versionCode 16/versionName 1.0.0, three ABIs, valid ZIP CRC and AOT libraries. The bundled environment contains only public client settings. Build 16 includes chat scrolling and stable media-layout fixes, covered by seven targeted widget tests. Android Studio emulator installation-only checks passed for a clean install and an official release 15 → 16 update; no application activity was launched. Older debug-signed installations cannot be updated by the production-signed APK because their signing identities differ; build 16 does not bypass Android signature checks. macOS disk-image integrity and deep strict code signature verify; its embedded app is universal 1.0.1 build 5 with the NeonChat icon. The DMG is ad-hoc signed, not notarized. Windows is the supplied PE/Inno Setup installer matching the successful packaging record and companion x64 app 1.0.0+1; it is unsigned. Windows runtime was not repeated on the publisher's Mac. Publishing these packages does not claim fresh messaging, calling or notification tests.
 
 Older Android build14 is deliberately excluded because it contained a server credential. Never add it or any unreviewed original. Originals are preserved privately.
 

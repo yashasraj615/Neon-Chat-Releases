@@ -4,12 +4,12 @@
   "artifacts": [
     {
       "platform": "android",
-      "file": "NeonChat-1.0.0-build15-Android.apk",
+      "file": "NeonChat-1.0.0-build16-Android.apk",
       "version": "1.0.0",
-      "sha256": "59663b48c143daba2d9d97dbd132dfecd42b6bf3b7b206a0e90c4ee82616a9d0",
+      "sha256": "61e7dbcdd3b687ae5bab77c68eb1a3cc91178cd3aa3828d69f05aa8bc838b138",
       "size_bytes": 295747560,
       "storage": "git-lfs",
-      "build": 15,
+      "build": 16,
       "architecture": [
         "arm64",
         "armeabi-v7a",
